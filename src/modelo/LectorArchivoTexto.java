@@ -1,7 +1,7 @@
 /**
  * 
  */
-package lectorarchivotexto;
+package modelo;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -15,7 +15,7 @@ import java.io.IOException;
  */
 public class LectorArchivoTexto {
     String archivo;
-    
+    private OrdenMBA orden;
     
     /**
      * Instancia un Objeto LectorArchivo 
@@ -121,11 +121,5 @@ public class LectorArchivoTexto {
      * @param args
      * @throws IOException 
      */    
-    public static void main(String[] args) throws IOException {
-        //muestraContenido("C:/Users/Ariel/Documents/NetBeansProjects/LectorArchivoTexto/MisOrdenes17102015024452PDAS.TXT");
-        //String rutaArchivo = "C:/Users/Ariel/Documents/NetBeansProjects/LectorArchivoTexto/MisOrdenes17102015024452PDAS.TXT";
-        String rutaArchivo ="C:/Users/DamiánAriel/Documents/GitHub/lectorOrdenes/MisOrdenes17102015024452PDAS.TXT";
-        LectorArchivoTexto l1 = new LectorArchivoTexto(rutaArchivo);
-        l1.validarNumeroDeOrden();
-    }
+    
 }
