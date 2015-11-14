@@ -12,7 +12,7 @@ package modelo;
 public class OrdenMBA {
   
 private String posicionCampo;  
-
+//numero de Orden
 private String numeroOrden;
 
 private String numeroVIN;
