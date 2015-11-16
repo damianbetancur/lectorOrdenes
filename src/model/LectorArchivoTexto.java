@@ -1,7 +1,7 @@
 /**
  * 
  */
-package modelo;
+package model;
 
 import java.io.BufferedReader;
 import java.io.File;
