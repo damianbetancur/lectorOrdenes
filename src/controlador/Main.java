@@ -17,10 +17,10 @@ public class Main {
         //
         //muestraContenido("C:/Users/Ariel/Documents/NetBeansProjects/LectorArchivoTexto/MisOrdenes17102015024452PDAS.TXT");
         //String rutaArchivo = "C:/Users/Ariel/Documents/NetBeansProjects/LectorArchivoTexto/MisOrdenes17102015024452PDAS.TXT";
-        String rutaArchivo ="C:/Users/Damián Ariel Betancu/Documents/GitHub\\lectorOrdenes/MisOrdenes17102015024452PDAS.TXT";
+        String rutaArchivo ="C:/Users/Ariel/Documents/GitHub/lectorOrdenes/MisOrdenes17102015024452PDAS.TXT";
         LectorArchivoTexto l1 = new LectorArchivoTexto(rutaArchivo);
         
         
-        System.out.println(l1.getOrdenes());
+        System.out.println(l1.getOrdenes().size());
     }
 }
