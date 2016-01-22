@@ -43,7 +43,7 @@ public class LectorArchivoTexto {
         b.close();
     }
 
-    /**
+    /**clase
      * Cuenta los registros de un archivo de texto
      * @throws FileNotFoundException
      * @throws IOException 
