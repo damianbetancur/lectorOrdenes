@@ -14,6 +14,7 @@ import modelo.LectorArchivoTexto;
  */
 public class Main {
     public static void main(String[] args) throws IOException {
+        //
         //muestraContenido("C:/Users/Ariel/Documents/NetBeansProjects/LectorArchivoTexto/MisOrdenes17102015024452PDAS.TXT");
         //String rutaArchivo = "C:/Users/Ariel/Documents/NetBeansProjects/LectorArchivoTexto/MisOrdenes17102015024452PDAS.TXT";
         String rutaArchivo ="C:/Users/Damián Ariel Betancu/Documents/GitHub/Nueva Carpeta/lectorOrdenes/MisOrdenes17102015024452PDAS.TXT";
